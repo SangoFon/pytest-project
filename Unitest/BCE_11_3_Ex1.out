@@ -1,0 +1,20 @@
+============================= test session starts =============================
+platform win32 -- Python 3.7.3, pytest-5.2.2, py-1.8.0, pluggy-0.13.0 -- c:\users\mfonk\documents\desktop\pytest_exercises\env\scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\mfonk\Documents\Desktop\pytest_exercises
+collecting ... collected 3 items
+
+test_fixtures_BCE_11_3.py::test_dict_prime 
+        SETUP    F dict_prime
+        test_fixtures_BCE_11_3.py::test_dict_prime (fixtures used: dict_prime)PASSED
+        TEARDOWN F dict_prime
+test_fixtures_BCE_11_3.py::test_dict_prime2 
+        SETUP    F dict_prime
+        test_fixtures_BCE_11_3.py::test_dict_prime2 (fixtures used: dict_prime)PASSED
+        TEARDOWN F dict_prime
+test_fixtures_BCE_11_3.py::test_member_tag 
+        SETUP    F member_tag
+        test_fixtures_BCE_11_3.py::test_member_tag (fixtures used: member_tag)PASSED
+        TEARDOWN F member_tag
+
+============================== 3 passed in 0.01s ==============================

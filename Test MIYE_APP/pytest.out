@@ -1,0 +1,20 @@
+============================= test session starts =============================
+platform win32 -- Python 3.7.0, pytest-5.1.2, py-1.8.0, pluggy-0.12.0 -- c:\users\mfonk\appdata\local\programs\python\python37-32\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\mfonk\Documents\Desktop\proj\reservation
+collecting ... 
+Test id and roomName in service table
+
+Test id  and cost in service table
+collected 4 items
+
+MIYE_test_db.py::test_service_table_1 
+        MIYE_test_db.py::test_service_table_1PASSED
+MIYE_test_db.py::test_service_table_2 
+        MIYE_test_db.py::test_service_table_2PASSED
+MIYE_test_db.py::test_service_table_3 
+        MIYE_test_db.py::test_service_table_3PASSED
+MIYE_test_db.py::test_service_table_4 
+        MIYE_test_db.py::test_service_table_4PASSED
+
+============================== 4 passed in 0.08s ==============================

@@ -1,0 +1,38 @@
+============================= test session starts =============================
+platform win32 -- Python 3.7.3, pytest-5.2.2, py-1.8.0, pluggy-0.13.0 -- c:\users\mfonk\documents\desktop\pytest_exercises\env\scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\mfonk\Documents\Desktop\pytest_exercises
+collecting ... collected 5 items
+
+test_fixtures_BCE_11_3_3.py::test_dict_prime
+    SETUP    M dict_prime
+        test_fixtures_BCE_11_3_3.py::test_dict_prime (fixtures used: dict_prime)PASSED
+test_fixtures_BCE_11_3_3.py::test_dict_prime2
+        test_fixtures_BCE_11_3_3.py::test_dict_prime2 (fixtures used: dict_prime)PASSED
+test_fixtures_BCE_11_3_3.py::test_member_tag
+Before yield1
+
+
+    SETUP    M member_tag
+        test_fixtures_BCE_11_3_3.py::test_member_tag (fixtures used: member_tag)PASSED
+test_fixtures_BCE_11_3_3.py::test_member_info
+
+Before yield2
+
+
+    SETUP    M member_info (fixtures used: member_tag)
+        test_fixtures_BCE_11_3_3.py::test_member_info (fixtures used: member_info, member_tag)PASSED
+test_fixtures_BCE_11_3_3.py::test_member_infos
+        test_fixtures_BCE_11_3_3.py::test_member_infos (fixtures used: member_info, member_tag)PASSED
+after yield2
+
+
+    TEARDOWN M member_info
+after yield1
+
+
+    TEARDOWN M member_tag
+    TEARDOWN M dict_prime
+
+============================== 5 passed in 0.02s ==============================
+comments: Yes, the output makes clear sense to us. it clearly highlight the Comments we made in BCE_11_3_EX2.out

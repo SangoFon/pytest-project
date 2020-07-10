@@ -1,0 +1,32 @@
+============================= test session starts =============================
+platform win32 -- Python 3.7.3, pytest-5.2.2, py-1.8.0, pluggy-0.13.0 -- c:\users\mfonk\documents\desktop\pytest_exercises\env\scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\mfonk\Documents\Desktop\pytest_exercises
+collecting ... collected 3 items
+
+test_fixtures_BCE_11_3_2.py::test_dict_prime
+    SETUP    M dict_prime
+        test_fixtures_BCE_11_3_2.py::test_dict_prime (fixtures used: dict_prime)PASSED
+test_fixtures_BCE_11_3_2.py::test_dict_prime2
+        test_fixtures_BCE_11_3_2.py::test_dict_prime2 (fixtures used: dict_prime)PASSED
+test_fixtures_BCE_11_3_2.py::test_member_tag
+    SETUP    M member_tag
+        test_fixtures_BCE_11_3_2.py::test_member_tag (fixtures used: member_tag)PASSED
+    TEARDOWN M member_tag
+    TEARDOWN M dict_prime
+
+============================== 3 passed in 0.07s ==============================
+Comments on question 7 page 69: using scope = "module". We notice that the system setup the first
+test and run it. Then, setup the second test and run it. Then, TEARDOWN the second
+test and finally TEARDOWN the first test.
+
+SETUP1
+  SETUP2
+  TEARDOWN2
+TEARDOWN1
+different to the first test where we have:
+SETUP1
+TEARDOWN1
+Then
+SETUP2
+TEARDOWN2
